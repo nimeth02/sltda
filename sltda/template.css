@@ -1,0 +1,138 @@
+body{
+    /* border: 2px solid green;  */
+    margin:0;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+.headbar{
+    background-image :url(https://www.sltda.gov.lk/images/header-bg.jpg);
+    height:40px;
+    width: auto;
+    
+}
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding-top:5px;
+    font-size: 1rem;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.4);
+    z-index: 3;
+}
+.navbar a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 20px;
+    color: #212529;
+   
+}
+a:hover{
+    color: #ffc107; 
+}
+
+.logo{
+    flex:1
+}
+.navitems{
+    display:flex;
+    line-height: 20px;  
+}
+
+.nav{
+    padding:5px 12px;
+}
+
+ .nav-registation{
+background-color: #212529;
+color: #ffc107;
+border-radius: 5px;
+padding: 5px 8px;
+}
+.nav-registation a{
+   
+    color: #ffc107; 
+}
+.nav-registation a:hover{
+   
+    color: #212529; 
+}
+.nav-registation:hover {
+    background-color: #ffc107;
+     
+}
+.nav-registation:hover {
+    
+      
+ }
+.searchbar{
+    margin:0 15px;
+   
+}
+.searchbar-input-bar{
+    display:flex;
+    align-items: center;   
+}
+.searchbar-input{
+    display:none;  
+    width:100%; 
+    flex:2;
+    border-radius: 5px;
+    padding: 8px;
+  
+}
+.searchbar-input-bar button{
+outline: none;
+border: none;
+background:none;
+}
+.search-close-img-btn{
+display:none
+}
+.language{
+margin:0 5px;
+
+}
+select{
+    padding:5px;
+    border-color:gray;
+    border-radius: 5px;
+    outline: none;
+}
+select:active , select:hover{
+    border-color: #ffc107;
+}
+
+
+/* footer */
+
+.footer{
+    background: #231f20;
+    color:white;
+    height:600px;
+}
+.footer-body{
+    background: url(https://www.sltda.gov.lk/images/foot-bg.svg);
+    background-size: cover;
+    height:400px;
+    grid-template-columns: 2;
+    padding-right: 35px!important;
+    padding-left: 35px!important;
+}
+.footer-body-upper{
+    padding:0 100px;
+}
+.footer-footer{
+    background-color: #100e0e;
+    height:200px;
+}
+
+.footer-right-section .footer-section-item{
+    color:#ffc107;
+}
